@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+@import url(./normalize.min.css);
+@import url(./humburgerMenu.css);
+@import url(./about.css);
+@import url(./header.css);
+@import url(./projects.css);
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
