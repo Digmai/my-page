@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className="header">
-      Header
+      This my blog!
       <div id="menuToggle">
         <input type="checkbox" />
         <span></span>

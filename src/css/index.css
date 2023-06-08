@@ -19,9 +19,16 @@ code {
 @import url(./about.css);
 @import url(./header.css);
 @import url(./projects.css);
+@import url(./mySkills.css);
+@import url(./footer.css);
 
 
 
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #2e2e35d6 !important;
+  color: #dadada !important;
+}
 
 
 *{

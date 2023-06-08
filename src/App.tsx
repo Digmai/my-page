@@ -10,15 +10,13 @@ import Header from "./components/header/Header";
 function App() {
   return (
     <div className="wrapper">
+      <Header />
       <div className="App">
-        <Header />
-
         <About />
         <Projects />
         <MySkills />
-
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 }

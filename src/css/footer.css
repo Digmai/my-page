@@ -1,0 +1,32 @@
+.footer {
+
+    box-sizing: border-box;
+    position: relative;
+
+    font-size:min(15px, 3vw);
+
+    background-color: #242429;
+    color: #fff;
+
+    height: min(550px, 50vh);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.footer__contact{
+
+    width: min(80vh , 80%);
+
+    text-align: center;
+
+}
+
+.footer p {
+    margin: 0 auto;
+
+
+}
