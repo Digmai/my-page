@@ -21,6 +21,8 @@ code {
 @import url(./projects.css);
 @import url(./mySkills.css);
 @import url(./footer.css);
+@import url(./font.css);
+
 
 
 
@@ -28,9 +30,11 @@ body {
   font-family: 'Open Sans', sans-serif !important;
   background-color: #2e2e35d6 !important;
   color: #dadada !important;
+  
 }
 
 
 *{
   box-sizing: border-box;
+  font-size:min(15px, 5vw);
 }

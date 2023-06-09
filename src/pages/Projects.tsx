@@ -11,10 +11,38 @@ const Projects = () => {
         </p>
       </div>
       <div className="projects-list">
-        <div className="projects-list__item">1</div>
-        <div className="projects-list__item">2</div>
-        <div className="projects-list__item">3</div>
-        <div className="projects-list__item">4</div>
+        <div className="projects-list__item">
+          <img
+            alt="alt"
+            src="./photo_2023-06-09_02-30-21.jpg"
+            className="projects-list__item-img"
+          />
+          <div className="projects-list__item-name">item-name</div>
+        </div>
+        <div className="projects-list__item">
+          <img
+            alt="alt"
+            src="./photo_2023-06-09_02-30-16.jpg"
+            className="projects-list__item-img"
+          />
+          <div className="projects-list__item-name">item-name</div>
+        </div>
+        <div className="projects-list__item">
+          <img
+            alt="alt"
+            src="./photo_2023-06-09_02-30-02.jpg"
+            className="projects-list__item-img"
+          />
+          <div className="projects-list__item-name">item-name</div>
+        </div>
+        <div className="projects-list__item">
+          <img
+            alt="alt"
+            src="./photo_2023-06-09_02-30-26.jpg"
+            className="projects-list__item-img"
+          />
+          <div className="projects-list__item-name">item-name</div>
+        </div>
       </div>
     </div>
   );
