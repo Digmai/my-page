@@ -34,13 +34,7 @@ const About = () => {
       </div>
       <div className="chaild">
         <div className="chaild__second-section">
-          <div>
-            <img
-              src="./photo.jpg"
-              alt="alt"
-              className="projects-list__item-img"
-            />
-          </div>
+          <img src="./photo.jpg" alt="alt" className="chaild__second-photo" />
         </div>
       </div>
       <div className="chaild">
