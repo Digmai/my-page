@@ -3,11 +3,13 @@ const Projects = () => {
     <div id="projects" className="projects">
       <div className="projects-title">
         <h3 className="projects-name">PROJECTS</h3>
-        <h2>What I Am Great At</h2>
+        <h2>Мои достижения в этой области</h2>
         <p>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupida non
-          proident, sunt in culpa qui officia
+          Я работал над множеством проектов, и каждый из них был отличной
+          возможностью для меня проявить свои навыки и творческий потенциал.
+          <br />Я постоянно стремлюсь к улучшению своих навыков, и каждый новый
+          проект - это новое испытание для меня, которое позволяет мне
+          становиться лучше и лучше.
         </p>
       </div>
       <div className="projects-list">

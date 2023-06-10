@@ -64,9 +64,24 @@
 
 
 .chaild__last-section {
-    padding: min(10vw, 10px);
+    /* padding: min(10vw, 10px); */
 
+    margin: 0 auto;
 
+    margin-bottom: min(12vh, 12vw);
+    max-width: 80%;
+
+    width: auto;
+
+    /* border: #1e7e35 1px solid ; */
+
+    text-align: justify;
+
+}
+
+.chaild__last-section strong {
+
+    font-size: min(25px, 5vw);
 }
 
 .chaild__first-section {
@@ -252,5 +267,10 @@
     .chaild__second-section {
         margin-right: 0;
     }
-
+    
+    .chaild__last-section {
+        /* padding: min(10vw, 10px); */
+    
+        margin-bottom: 0;
+    }    
 }

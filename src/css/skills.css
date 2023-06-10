@@ -1,4 +1,4 @@
-.mySkills {
+.skills {
     min-height: min-content;
     padding: min(10vw, 10px);
     padding-top: max(10vw, 25px);
@@ -10,12 +10,12 @@
 
 }
 
-.mySkills h2 {
+.skills h2 {
     letter-spacing: 2px;
 }
 
 
-.mySkills__conteyner {
+.skills__conteyner {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
@@ -25,7 +25,7 @@
 }
 
 
-.mySkills__conteyner-text {
+.skills__conteyner-text {
     box-sizing: border-box;
     /* 
     margin: min(200px ,max(10vh , 20px)); */
@@ -38,7 +38,8 @@
     background-color: rgba(61, 55, 55, 0.541);
 
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+
 
     padding: min(15px, 3vw);
 
@@ -46,7 +47,8 @@
 
 }
 
-.mySkills__conteyner-download {
+
+.skills__conteyner-download {
 
     font-size: min(15px, 3vw);
 
@@ -62,12 +64,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
     position: relative;
 
 }
 
-.mySkills__conteyner-download span {
+.skills__conteyner-download span {
     text-shadow: 2px 2px 2px rgb(255 0 0 / 62%);
     z-index: 2;
 
@@ -89,7 +92,7 @@
 
 }
 
-.mySkills__conteyner-download-bg{
+.skills__conteyner-download-bg{
 
     cursor: pointer;
 
@@ -111,23 +114,23 @@
 }
 
 @media screen and (min-width: 768px) {
-    .mySkills {
+    .skills {
         min-height: min-content;
         padding: min(10vw, 100px);
         padding-top: min(10vw, 50px);
     }
 
-    .mySkills__conteyner {
+    .skills__conteyner {
         grid-template-columns: 1.2fr .8fr;
         align-items: center;
     }
 
-    .mySkills__conteyner-text {
+    .skills__conteyner-text {
         width: 100%;
         min-height: min(500px, 50vh);
     }
 
-    .mySkills__conteyner-download {
+    .skills__conteyner-download {
         min-height: 0;
         width: min(35vw, 150px);
         height: min(35vw, 150px);

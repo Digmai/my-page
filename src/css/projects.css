@@ -18,6 +18,11 @@
 
 .projects-title{
     padding: min(10vw, 10px);
+
+}
+
+.projects-title h3{
+    letter-spacing: 3px;
 }
 
 .projects-list {
