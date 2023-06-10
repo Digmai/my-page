@@ -17,6 +17,7 @@ const Projects = () => {
             src="./photo_2023-06-09_02-30-21.jpg"
             className="projects-list__item-img"
           />
+          <div className="projects-list__item-name-bg"></div>
           <div className="projects-list__item-name">item-name</div>
         </div>
         <div className="projects-list__item">
@@ -25,6 +26,7 @@ const Projects = () => {
             src="./photo_2023-06-09_02-30-16.jpg"
             className="projects-list__item-img"
           />
+          <div className="projects-list__item-name-bg"></div>
           <div className="projects-list__item-name">item-name</div>
         </div>
         <div className="projects-list__item">
@@ -33,6 +35,7 @@ const Projects = () => {
             src="./photo_2023-06-09_02-30-02.jpg"
             className="projects-list__item-img"
           />
+          <div className="projects-list__item-name-bg"></div>
           <div className="projects-list__item-name">item-name</div>
         </div>
         <div className="projects-list__item">
@@ -41,6 +44,7 @@ const Projects = () => {
             src="./photo_2023-06-09_02-30-26.jpg"
             className="projects-list__item-img"
           />
+          <div className="projects-list__item-name-bg"></div>
           <div className="projects-list__item-name">item-name</div>
         </div>
       </div>

@@ -56,9 +56,9 @@
 
 .chaild__second-photo {
 
-    height: 80vh;
+    max-height: 60vh;
     width: auto;
-    /* object-fit: cover; */
+    object-fit: cover;
     object-position: center;
 }
 
@@ -81,6 +81,9 @@
     display: grid;
 
     grid-template-columns: 1fr;
+
+    margin-right: auto;
+    margin-left: min(5vw, 30%);
 }
 
 .chaild__first-tityle-name {
@@ -136,14 +139,14 @@
     font-size: min(40px, 5vw);
     overflow: hidden;
 
-    width: 0;
+    /* width: 0; */
     margin-left: min(5px, 1vw);
     margin: 0;
 
     font-family: monospace;
     letter-spacing: 2px;
 
-    animation: typing 2s steps(7, end) forwards;
+    /* animation: typing 2s steps(7, end) forwards; */
 }
 
 @keyframes typing {

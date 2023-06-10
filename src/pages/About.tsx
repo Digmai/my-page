@@ -1,4 +1,25 @@
+import { useEffect, useRef, useState } from "react";
+
 const About = () => {
+  const paragraphRef = useRef<HTMLParagraphElement>(null);
+  const [text, setText] = useState("");
+
+  useEffect(() => {
+    let i = 0;
+    const intervalId = setInterval(() => {
+      if (i < "Sykalov".length) {
+        setText((prevText) => prevText + "Syykalov"[i]);
+        console.log("Sykalov"[i]);
+        i++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 205);
+    return () => clearInterval(intervalId);
+  }, []);
+
+  console.log(0.7 * 2000);
+
   return (
     <div id="about" className="about">
       <div className="chaild">
@@ -9,10 +30,12 @@ const About = () => {
               <div className="message">
                 <p>~ </p> <p>$</p>{" "}
               </div>
-              <div className="pc-sykalov">
-                <p>Sykalov</p>
+              <div style={{ display: "flex" }}>
+                <div className="pc-sykalov">
+                  <p ref={paragraphRef}>{text}</p>
+                </div>
+                <div className="pc">_</div>
               </div>
-              <div className="pc">_</div>
             </div>
           </div>
           <div className="chaild__links">

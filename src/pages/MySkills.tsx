@@ -1,7 +1,7 @@
 const MySkills = () => {
   return (
     <div id="skills" className="mySkills">
-      <h2> This is my skills </h2>
+      <h2>SKILS</h2>
 
       <div className="mySkills__conteyner">
         <div className="mySkills__conteyner-text">
@@ -17,7 +17,9 @@ const MySkills = () => {
           создание форм развития.
         </div>
         <div className="mySkills__conteyner-download">
-          <span>download my portfolio</span>
+          <div className="mySkills__conteyner-download-bg">
+            <span>download my portfolio</span>
+          </div>
           <img className="download-img" src="download.svg " alt="alt" />
         </div>
       </div>
