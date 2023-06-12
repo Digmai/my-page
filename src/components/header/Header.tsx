@@ -21,12 +21,10 @@ function Header() {
 
   function handleClose() {
     setIsOpen(false);
-    document.body.style.overflow = "auto";
   }
 
   function handleToggle() {
     setIsOpen(!isOpen);
-    document.body.style.overflow = isOpen ? "auto" : "scroll";
   }
   return (
     <header className="header">
