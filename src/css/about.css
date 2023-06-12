@@ -52,6 +52,8 @@
     opacity: .97;
 
     margin-right: 10px;
+
+    overflow: scroll;
 }
 
 .chaild__second-photo {

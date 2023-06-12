@@ -48,27 +48,26 @@
 }
 
 
-.skills__conteyner-download {
-
+.skills__conteyner-download  {
     font-size: min(15px, 3vw);
-
     width: min(50%, 35vw);
     height: min(150px, 35vw);
-
     background-color: rgb(201, 132, 47);
-
     border-radius: 10px;
     border: 2px solid #ffffff6f;
     margin: 0 auto;
-
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+    filter: drop-shadow(16px 16px 10px black);
     position: relative;
+    transition: filter 0.5s ease-in-out;
+  }
+.skills__conteyner-download.clicked{
+    filter: brightness(75%);
+  }
 
-}
+
 
 .skills__conteyner-download span {
     text-shadow: 2px 2px 2px rgb(255 0 0 / 62%);

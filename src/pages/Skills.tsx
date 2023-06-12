@@ -1,4 +1,15 @@
+import { useState } from "react";
+
 const MySkills = () => {
+  const [clicked, setClicked] = useState(false);
+
+  const handleClick = () => {
+    setClicked(true);
+    setTimeout(() => {
+      setClicked(false);
+    }, 300);
+  };
+
   return (
     <div id="skills" className="skills">
       <h2>SKILLS</h2>
@@ -40,7 +51,14 @@ const MySkills = () => {
             веб-приложения, при этом улучшая процесс разработки.
           </p>
         </div>
-        <div className="skills__conteyner-download">
+        <div
+          className={
+            clicked
+              ? "skills__conteyner-download clicked"
+              : "skills__conteyner-download"
+          }
+          onClick={handleClick}
+        >
           <div className="skills__conteyner-download-bg">
             <span>download my portfolio</span>
           </div>
